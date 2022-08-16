@@ -1,0 +1,13 @@
+.lista-ordenadas li{background-color: rgb(255, 255, 0);}
+.color-green{color: green;}
+.maiusculo{text-transform: uppercase;}
+.header{color: red;}
+.header em{font-size: 40px; border: 1px solid black;}
+li{font-size: 20px;}
+li em{font-weight: bold;}
+.color-blue{color: blue;}
+.color-pink{color: rgb(255, 55, 88);}
+.desenvolvedor-orange:hover{font-weight: 600; color: orange;}
+.desenvolvedor-green:hover{font-weight: 600; color: green;}
+.desenvolvedor-black:hover{font-weight: 600; color: black;}
+.desenvolvedor-yellow:hover{font-weight: 600; color: yellow;}
