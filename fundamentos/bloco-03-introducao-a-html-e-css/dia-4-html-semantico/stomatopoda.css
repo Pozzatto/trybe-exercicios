@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+body{
+    font-family: sans-serif;
+    letter-spacing: -1px;
+}
+
+header h1{
+    font-size: 45px;
+    background-color: rgb(255, 136, 0);
+    padding: 1%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+header img{
+    height: 500px;
+    width: 100%;
+}
+
+nav {
+    background-color: rgb(255, 157, 44);
+    padding: 20px;
+    text-align: right;   
+}
+
+nav a {
+    padding: 2%;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#inicio {
+    text-align: center;
+    margin: 5%;
+    font-size: 20px;
+}
+
+#classe h2{
+    font-size: 30px;
+    background-color: rgb(255, 136, 0);
+    text-align: center;
+    padding: 1%;
+}
+
+#classe li{
+    display: inline-block;
+    font-size: 15px;
+    padding: 4px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#classe img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 2%;
+    margin-bottom: 20px;
+}
+
+
+#conhecendo h2 {
+    font-size: 30px;
+    background-color: rgb(255, 136, 0);
+    text-align: center;
+    padding: 1%;
+}
+
+#conhecendo p{
+    text-align: center;
+    margin: 4%;
+    font-size: 20px;  
+}
+
+#conhecendo img {
+    float:right;
+    border-radius: 2%;
+}
+
+#fatos h2{
+    font-size: 25px;
+    background-color: rgb(255, 136, 0);
+    padding: 1%;
+    text-align: center;
+}
+
+#fatos p {
+    margin: 3%;
+    font-size: 20px;
+}
+
+#video iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+footer{
+    margin-top: 3%;
+    padding: 4%;
+    background-color: rgb(255, 136, 0);
+}
+
+footer h4 {
+    font-size: 20px;
+    padding-bottom: 4%;
+    font-weight: 100;
+    
+}
+
+footer a {
+    margin: 2%;
+    text-decoration: none;
+    
+}
+
+footer section {
+    float: right;
+    font-size: 15px;
+    font-weight: 100;
+}

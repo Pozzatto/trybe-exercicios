@@ -1,0 +1,12 @@
+body{color: rgb(66, 66, 66); font-family: sans-serif;}
+*{margin: 0; border: 0;}
+.titulo{color: rgb(86, 17, 151); padding: 30px; font-size: 100px; font-family: Arial; background-color: rgb(216, 79, 216);}
+p{padding: 20px; font-weight: 600; font-size: 20px;}
+.All-colors h3:hover{background-color: rgb(216, 79, 216); padding-block: 3px;}
+.All-colors h3{padding: 3px 30px;}
+.cor-primaria h3{color: blue;}
+.cor-secundaria h3{color: red;}
+.cor-complementar h3{color: green; font-size: 30px;}
+.cor-escura h3{color: brown}
+.cor-clara h3{color: palevioletred;}
+.italico h3{font-style: italic;}
