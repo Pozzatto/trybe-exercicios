@@ -47,15 +47,32 @@
 // console.log(resultado);
 
 //----------------------------------------------------------
-//Exercicio 4
+//Exercicio 4 Numeros primos?????????
 
-let n = 4;
-let linha = '';
-let asterisco = '*';
+let num = 50;
+let result = [];
 
-for(let index=0; index<n; index+=1){
-    linha += asterisco;
-}
-for (let index=0; index<n; index+=1) {
-    console.log(linha)    
-}
+for (let index = 2; index < num; index += 1){
+  if (index % num === 0){
+
+    } else {
+      result.push(index)
+    }
+  }    
+
+console.log(result);
+
+
+//----------------------------------------------------------
+//Exercicio Bonus
+
+// let n = 4;
+// let linha = '';
+// let asterisco = '*';
+
+// for(let index=0; index<n; index+=1){
+//     linha += asterisco;
+// }
+// for (let index=0; index<n; index+=1) {
+//     console.log(linha)    
+// }
