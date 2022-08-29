@@ -70,15 +70,27 @@
       let newSection = document.createElement('section');
       newSection.className = 'center-content';
       main.appendChild(newSection);
-      let section = document.querySelector('#body .main-content .center-content');
+      let sectionCenter = document.querySelector('#body .main-content .center-content');
       //exercicio 4
       let newP = document.createElement('p');
       newP.innerText = 'Texto de teste';
-      section.appendChild(newP);
+      sectionCenter.appendChild(newP);
       //exercicio 5
       let newSection2 = document.createElement('section');
       newSection2.className = 'left-content';
-      main.appendChild(newSection2)
+      main.appendChild(newSection2);
+      let sectionLeft = document.querySelector('#body .main-content .left-content');
+      //exercicio 6
+      let newSection3 = document.createElement('section');
+      newSection3.className = 'right-content';
+      main.appendChild(newSection3);
+      //exercicio 7
+      let newImg = document.createElement('img');
+      newImg.src = 'https://picsum.photos/200';
+      newImg.className = 'small-image';
+      sectionLeft.appendChild(newImg);
+      //exercicio 8
+      
     </script>
   </body>
 </html>
