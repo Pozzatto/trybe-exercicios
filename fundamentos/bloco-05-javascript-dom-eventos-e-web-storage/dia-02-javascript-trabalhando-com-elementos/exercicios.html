@@ -70,6 +70,7 @@
       //exercicio 3 ?????
       let newSection = document.createElement('section');
       newSection.className = 'center-content';
+      newSection.style.backgroundColor = 'green';
       main.appendChild(newSection);
       let sectionCenter = document.querySelector('#body .main-content .center-content');
       //exercicio 4
@@ -84,6 +85,7 @@
       //exercicio 6
       let newSection3 = document.createElement('section');
       newSection3.className = 'right-content';
+      newSection3.style.marginRight = 'auto';
       main.appendChild(newSection3);
       let sectionRight = document.querySelector('#body .main-content .right-content');
       //exercicio 7
@@ -99,17 +101,25 @@
       //
       function listNumber() {
         let li = document.createElement('li');
-        let array = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'onze'];
+        let array = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito'];
         
         for (let index = 0; index < array.length; index++) {
           text = array[index];
           ul.innerHTML += '<li>' + text + '</li>';
-        }
+        };
         return listNumber;
       }
       listNumber();
       //exercicio 9
       main.innerHTML += '<h3></h3>' + '<h3></h3>' + '<h3></h3>';
+      //exercicio 2.2
+      let h3 = document.querySelectorAll('h3')
+      h3[0].className = 'description';
+      h3[1].className = 'description';
+      h3[2].className = 'description';
+      //exercicio 2.3
+      main.removeChild(document.querySelector('#body .main-content .left-content'));
+      //done
     </script>
   </body>
 </html>
