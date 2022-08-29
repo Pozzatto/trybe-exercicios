@@ -65,7 +65,20 @@
       let newMain = document.createElement('main');
       newMain.className = 'main-content';
       body.appendChild(newMain);
-      //exercicio 3
+      let main = document.querySelector('#body .main-content');
+      //exercicio 3 ?????
+      let newSection = document.createElement('section');
+      newSection.className = 'center-content';
+      main.appendChild(newSection);
+      let section = document.querySelector('#body .main-content .center-content');
+      //exercicio 4
+      let newP = document.createElement('p');
+      newP.innerText = 'Texto de teste';
+      section.appendChild(newP);
+      //exercicio 5
+      let newSection2 = document.createElement('section');
+      newSection2.className = 'left-content';
+      main.appendChild(newSection2)
     </script>
   </body>
 </html>
