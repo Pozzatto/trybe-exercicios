@@ -130,3 +130,18 @@ function createDaysOfTheWeek() {
   }
   dayMouseOver();
   dayMouseOut();
+  
+  //----------------------------------
+  //exercicio 7
+
+  function mytasks(task) {
+    let tasksContainer = document.querySelector('.my-tasks');
+    let span = document.createElement('span');
+    span.innerHTML = task;
+
+    tasksContainer.appendChild(span);
+  }
+  mytasks('Projeto da Trybe');
+
+  //----------------------------------
+  //exercicio 8
