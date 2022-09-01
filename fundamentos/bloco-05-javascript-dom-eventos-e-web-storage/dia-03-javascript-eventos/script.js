@@ -145,3 +145,16 @@ function createDaysOfTheWeek() {
 
   //----------------------------------
   //exercicio 8
+
+  function legendColor(cor) {
+    let div = document.createElement('div');
+    div.style.backgroundColor = cor;
+    div.className = 'task'
+    let divFather = document.querySelector('.my-tasks');
+    divFather.appendChild(div);
+
+  }
+  legendColor('blue');
+
+  //----------------------------------
+  //exercicio 9
