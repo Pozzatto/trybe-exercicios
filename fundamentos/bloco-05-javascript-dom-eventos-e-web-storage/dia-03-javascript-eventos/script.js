@@ -157,4 +157,20 @@ function createDaysOfTheWeek() {
   legendColor('blue');
 
   //----------------------------------
-  //exercicio 9
+  //exercicio 9 ?????
+
+  function selectElement() {
+    let div = document.querySelector('.task');
+    let selectTask = document.getElementsByClassName('task selected')
+    div.addEventListener('click', function(event) {
+      if (selectTask.length === 0) {
+        event.target.className = 'task selected';
+      } else {
+        event.target.className = 'task';
+      }
+    });
+  }
+  selectElement();
+
+  //----------------------------------
+  //exercicio 10
