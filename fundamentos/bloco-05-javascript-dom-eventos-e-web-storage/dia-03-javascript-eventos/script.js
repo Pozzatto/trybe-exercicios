@@ -145,3 +145,82 @@ function createDaysOfTheWeek() {
 
   //----------------------------------
   //exercicio 8
+
+  function legendColor(cor) {
+    let div = document.createElement('div');
+    div.style.backgroundColor = cor;
+    div.className = 'task'
+    let divFather = document.querySelector('.my-tasks');
+    divFather.appendChild(div);
+
+  }
+  legendColor('blue');
+
+  //----------------------------------
+  //exercicio 9 ?????
+
+  function selectElement() {
+    let div = document.querySelector('.task');
+    let selectTask = document.getElementsByClassName('task selected')
+    div.addEventListener('click', function(event) {
+      if (selectTask.length === 0) {
+        event.target.className = 'task selected';
+      } else {
+        event.target.className = 'task';
+      }
+    });
+  }
+  selectElement();
+
+  //----------------------------------
+  //exercicio 10
+
+  function assingnsColor() {
+    let selectedTask = document.getElementsByClassName('task selected');
+    let days = document.querySelector('#days');
+    let taskDiv = document.querySelector('.task');
+    let taskColor = taskDiv.style.backgroundColor;
+
+    days.addEventListener('click', function(event) {
+      let eventTargetColor = event.target.style.color;
+      if (selectedTask.length > 0 && eventTargetColor !== taskColor)
+      {
+        let color = selectedTask[0].style.backgroundColor;
+        event.target.style.color = color;
+      } else if (eventTargetColor === taskColor) {
+        event.target.style.color = 'rgb(119,119,119)';
+      }
+    });
+  }
+  assingnsColor();
+
+  //----------------------------------
+  //exercicio 11
+
+  function addCompromisso() {
+    let getInputField = document.querySelector('#task-input');
+    let addInputButton = document.querySelector('#btn-add');
+    let getTaskList = document.querySelector('.task-list');
+
+    addInputButton.addEventListener('click', function() {
+      if (getInputField.value.length > 0) {
+        let newli = document.createElement('li');
+        newli.innerText = getInputField.value;
+
+        getTaskList.appendChild(newli);
+        getInputField.value = '';
+      } else {
+        alert('Error: Digite ao menos 1 caractere.');
+      }
+    });
+    getInputField.addEventListener('keyup', function(event) {
+      if (event.key === 'Enter' && getInputField.value.length > 0) {
+        let newLi = document.createElement('li');
+        newLi.innerText = getInputField.value;
+        
+        getTaskList.appendChild(newLi);
+        getInputField.value = '';
+      }
+    });
+  }
+  addCompromisso();
