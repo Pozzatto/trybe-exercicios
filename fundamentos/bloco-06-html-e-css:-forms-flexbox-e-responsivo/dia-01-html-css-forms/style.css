@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+#form {
+    padding: 20px;
+    border: 1px solid gray;
+    width: 650px;
+}
